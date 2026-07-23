@@ -171,7 +171,7 @@ class DashboardScreen extends StatelessWidget {
                   label: const Text('Voir le cycle',
                       style: TextStyle(fontSize: 13)),
                   icon: const Icon(Icons.arrow_forward, size: 14),
-                  iconAlignment: IconAlignment.end,
+                  
                 ),
               ],
             ),
