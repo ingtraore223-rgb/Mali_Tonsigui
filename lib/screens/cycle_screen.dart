@@ -83,7 +83,7 @@ class _CycleScreenState extends State<CycleScreen> {
                   ),
                   const SizedBox(height: 8),
                   DropdownButtonFormField<Member>(
-                    initialValue: gagnantSelectionne,
+                    Value: gagnantSelectionne,
                     hint: const Text('Choisir le gagnant tiré au sort',
                         style: TextStyle(fontSize: 13)),
                     isExpanded: true,
@@ -125,7 +125,7 @@ class _CycleScreenState extends State<CycleScreen> {
                         backgroundColor: AppColors.coralStrong,
                         foregroundColor: AppColors.coralBg,
                         disabledBackgroundColor:
-                            AppColors.coralStrong.withValues(alpha: 0.4),
+                            AppColors.coralStrong.withValues(0.4),
                         elevation: 0,
                         padding: const EdgeInsets.symmetric(vertical: 12),
                         shape: RoundedRectangleBorder(
